@@ -14,12 +14,12 @@ export namespace Config {
     INSTANT,
   }
 
-  export const grid: Grid = Grid.RECTANGLE;
+  export const grid: Grid = Grid.HEXAGON;
 
   export const runtime: Runtime = Runtime.ANIMATED;
 
-  export const width = 600;
-  export const height = 600;
+  export const width = 1000;
+  export const height = 1000;
 
   export const cols = 100;
   export const rows = 100;
